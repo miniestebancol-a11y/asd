@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "boton4",
+  "version": "${version}",
+  "name": "Botón 4 al abrir inventario",
+  "description": "Al abrir el inventario se presiona automáticamente el botón 4 del mouse.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.ejemplo.boton4.Boton4Client"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
